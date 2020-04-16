@@ -670,7 +670,8 @@ footer{
     display: inline-grid;
   }
   .cards{
-    margin-left: 15%;
+    margin-left: 0%;
+    padding-left: 0;
   }
   .lowend{
     margin-top: 0%;
