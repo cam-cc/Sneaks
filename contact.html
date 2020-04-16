@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>WEB222 Store - Contact</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+    <header class ="products">
+      <nav id="page-nav">
+      <!-- [THE HAMBURGER] -->
+      <label for="hamburger">&#9776;</label>
+      <input type="checkbox" id="hamburger"/>
+
+      <!-- [MENU ITEMS] -->
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="products.html">Products</a></li>
+      </ul>
+      </header>
+    <body id = "contactbody">
+    <div class="contact-us">
+      <div class="top-section">
+    <h3>Get ahold of us!</h3>
+    <h4>Please fill this form in a decent manner</h4>
+    </div>
+      <form action="https://httpbin.org/post" method="POST" id="contact-form">
+        <div class="names">
+          <div class="box">
+            <label for="c_first" id="first-label">First Name <span class="req"> *</span></label>
+            <input type="text" name="c_first" id="left" required>
+          </div>
+          <div class="box">
+            <label for="c_last" id="last-label">Last Name<span class="req"> *</span></label>
+            <input type="text" name="c_last" id="right" required>
+          </div>
+          <div class="box">
+            <label for="c_email" id="mail-label">E-Mail<span class="req"> *</span></label>
+            <input type="email" name="c_email" placeholder="example@eggs.com" style="margin-left:5px; width: 100%;"required>
+          </div>
+        </div>
+        <div class="address">
+          <label for="c_addy" id="address-label"> Address <span class="req"> *</span></label>
+            <input type="text" name="c_addy" style="margin-left:5px; height: 8px; margin-right: 100%" required>
+            <label for ="c_city" id="citylabel"> City / Province<span class="req"> *</span></label>
+            <input list="cities" name="city">
+          <datalist style="margin-left:5px;" id="cities">
+            <option value="toronto, Ontario">
+            <option value="sarnia, Ontario">
+            <option value="london, Ontario">
+            <option value="mississauga, Ontario">
+            <option value="oshawa, Ontario">
+            <option value="windsor, Ontario">
+            <option value="montreal, Quebec">
+            <option value="victoria, British columbia">
+            <option value="saskatoon, Saskatchewan">
+          </datalist>
+        </div>
+        <div id="buttons">
+        <input type="submit" value="Send">
+        <input type="reset" value="Clear">
+        </div>
+    </form>
+    <div style="margin-left: 5px; margin-bottom: 0px;"class="message">
+      <h4 id="mail-label"> Message <span class="req"> *</span></h4>
+      <textarea name="content" placeholder="Enter text here..." form="contact-form" id="message" rows="10" cols="50"></textarea>
+    </div>
+  </div>
+    </body>
+    <footer class="footer-distributed" id="confoot">
+        <div class="footer-left">
+          <h3>Sneaks<span>Designer</span></h3>
+          <p class="footer-links">
+            <a href="index.html">Home</a>
+            ·
+            <a href="products.html">Products</a>
+            .
+            <a href="#">Contact</a>
+          </p>
+          <p class="footer-company-name">Sneaks &copy; 2020</p>
+        </div>
+        <div class="footer-center">
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>1750 Finch Avenue East</span> Toronto, Ontario</p>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <p>Phone: 416.491.5050</p>
+          </div>
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@company.com">contact@sneakerplug.com</a></p>
+          </div>
+        </div>
+        <div class="footer-right">
+          <p class="footer-company-about">
+            <span>About Sneaks</span>
+            We buy the most expensive sneakers at retail price, So you dont have too!
+          </p>
+          <div class="footer-icons">
+
+            <a href="cite.html"><i class="fa fa-facebook"><img src="images/fb.png" width="40em" height="40em"></i></a>
+            <a href="cite.html"><i class="fa fa-twitter"><img src="images/insta.png" width="40em" height="40em"></i></a>
+            <a href="cite.html"><i class="fa fa-linkedin"><img src="images/snap.png" width="40em" height="40em"></i></a>
+
+          </div>
+        </div>
+      </footer>
+</html>
