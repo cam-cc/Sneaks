@@ -609,7 +609,16 @@ footer{
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
+#message{
+  width: 35em;
+  height: 12em;
+}
+
 @media only screen and (max-width: 800px) {
+  #message{
+  width: 25em;
+  height: 15em;
+  }
   .text{
     margin-top: 60%;
     padding-bottom: 0;
