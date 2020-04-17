@@ -681,8 +681,7 @@ footer{
     display: inline-grid;
   }
   .cards{
-    margin-left: 0%;
-    padding-left: 0;
+    margin: auto;
   }
   .lowend{
     margin-top: 0%;
@@ -698,7 +697,9 @@ footer{
       position: absolute;
   }
   .container{
-    display: block;
+   display: block;
+   overflow-x:hidden;
+   overflow-x:none;
   }
   .threeD{
     color: rgb(219, 219, 219);
