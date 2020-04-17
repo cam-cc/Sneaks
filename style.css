@@ -653,6 +653,7 @@ footer{
   }
   .indexbody{
     overflow-x:none;
+    overflow-x:hidden;
     background-color: #232323;
   }
   #page-nav label {
@@ -704,7 +705,7 @@ footer{
     position: relative;
     transform: translate(-50%, -50%);
     top: 30%;
-    font-size: 5em;
+    font-size: 4em;
     text-align: center;
     font-family: sans-serif;
     letter-spacing: 0.1em;
@@ -733,8 +734,9 @@ footer{
   }
   .contact-us {
     overflow-x:none;
+    overflow-x:hidden;
     border: 2px solid black;
-    width: 23em;
+    width: 22em;
     height: 48em;
     margin: auto;
     position: relative;
