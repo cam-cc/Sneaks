@@ -643,6 +643,11 @@ footer{
         padding-inline: 0;
 	padding-left: 0;
     }
+	.card{
+	margin-left: 5%;
+	margin-right: 0;
+	opacity: 1;
+	}
   .bottom-text #right-text {
     float:none;
     background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
