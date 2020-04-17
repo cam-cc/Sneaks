@@ -705,7 +705,7 @@ footer{
     position: relative;
     transform: translate(-50%, -50%);
     top: 30%;
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     font-family: sans-serif;
     letter-spacing: 0.1em;
@@ -736,7 +736,7 @@ footer{
     overflow-x:none;
     overflow-x:hidden;
     border: 2px solid black;
-    width: 22em;
+    width: 21em;
     height: 48em;
     margin: auto;
     position: relative;
