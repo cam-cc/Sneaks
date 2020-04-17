@@ -617,7 +617,7 @@ footer{
 @media only screen and (max-width: 800px) {
   #message{
   width: 25em;
-  height: 15em;
+  height: 14em;
   }
   .text{
     margin-top: 60%;
@@ -652,6 +652,7 @@ footer{
     z-index: 1;
   }
   .indexbody{
+    overflow-x:hidden;
     background-color: #232323;
   }
   #page-nav label {
@@ -731,10 +732,11 @@ footer{
     display: none;
   }
   .contact-us {
+    overflow-x:hidden;
     border: 2px solid black;
     width: 23em;
     height: 48em;
-    margin-left: 0%;
+    margin: auto;
     position: relative;
     z-index: -1;
     justify-content: center;
@@ -743,7 +745,7 @@ footer{
     padding-top: 100%;
   }
   .footer-distributed{
-		font: bold 14px sans-serif;
+    font: bold 14px sans-serif;
     margin-top: 0%;
 	}
 
