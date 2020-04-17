@@ -237,7 +237,8 @@ img #cat {
     /* Product Cards */
     .cards {
         display: block;
-        padding-left: 10%;
+	margin: auto;
+        padding-inline: 20%;
     }
     .card{
         border: 5px solid #f1e4b8;
@@ -636,9 +637,11 @@ footer{
    margin-right: 10%;
    text-align: center;
   }
-	.cards{
-	margin-left: 2%;
-	}
+    .cards {
+        display: block;
+	margin: auto;
+        padding-inline: 0;
+    }
   .bottom-text #right-text {
     float:none;
     background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
