@@ -679,10 +679,7 @@ footer{
   }
   .footer-info{
     display: inline-grid;
-  }
-  .cards{
-    margin-left: auto;
-  }
+}
   .lowend{
     margin-top: 0%;
     margin-left: 10%;
