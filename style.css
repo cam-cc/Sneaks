@@ -635,6 +635,7 @@ footer{
    font-family: arial, helvetica;
    width: 100%;
    text-align: center;
+   margin: auto;
   }
     .cards {
         display: block;
@@ -657,6 +658,7 @@ footer{
    font-family: arial, helvetica;
    width: 100%;
    text-align: center;
+   margin: auto;
   }
   #page-nav {
     z-index: 1;
