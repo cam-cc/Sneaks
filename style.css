@@ -652,7 +652,7 @@ footer{
     z-index: 1;
   }
   .indexbody{
-    overflow-x:hidden;
+    overflow-x:none;
     background-color: #232323;
   }
   #page-nav label {
