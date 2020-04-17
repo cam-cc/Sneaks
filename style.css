@@ -623,6 +623,7 @@ footer{
   .text{
     margin-top: 60%;
     padding-bottom: 0;
+    margin: 19% 0em 0 -20em;
     font-size: 0.5em;
   }
   .bottom-text #left-text {
