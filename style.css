@@ -732,7 +732,7 @@ footer{
     display: none;
   }
   .contact-us {
-    overflow-x:hidden;
+    overflow-x:none;
     border: 2px solid black;
     width: 23em;
     height: 48em;
