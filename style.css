@@ -681,7 +681,7 @@ footer{
     display: inline-grid;
   }
   .cards{
-    margin: auto;
+    margin-left: auto;
   }
   .lowend{
     margin-top: 0%;
