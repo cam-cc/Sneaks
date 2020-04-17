@@ -633,8 +633,7 @@ footer{
    font-weight: bold;
    font-size: 30px;
    font-family: arial, helvetica;
-   width: 350px;
-   margin-right: 10%;
+   width: 100%;
    text-align: center;
   }
     .cards {
@@ -656,7 +655,7 @@ footer{
    font-weight: bold;
    font-size: 30px;
    font-family: arial, helvetica;
-   width: 380px;
+   width: 100%;
    text-align: center;
   }
   #page-nav {
